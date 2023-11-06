@@ -1,0 +1,256 @@
+body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-self: flex-end;
+}
+
+nav a {
+  color: #fff;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-divider {
+  text-align: center;
+  width: 100%;
+  background-color: #13293d;
+
+  > h3 {
+    margin: 18px;
+    color: white;
+  }
+}
+
+p {
+  font-size: 20px;
+}
+
+/* About me section */
+#about-me {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #13293d;
+  background-image: url("../images/GGB.jpeg");
+}
+#about-me-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 700px;
+  background: rgb(0 0 0 / 64%);
+  color: white;
+
+  #my-picture {
+    border-radius: 50%;
+    min-height: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 50px;
+
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/Lilian.png");
+    box-shadow: -10px 10px 10px #fff;
+  }
+
+  #my-bio {
+    max-width: 60%;
+    align-items: center;
+    margin: 50px;
+
+    #strava-cta::after {
+      content: "👇";
+      display: inline-block;
+    }
+  }
+}
+
+/* About me section end */
+
+/* My Portfolio section */
+
+#my-work {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 500px;
+  width: 100%;
+  background-color: white;
+
+  .project {
+    display: flex;
+    cursor: pointer;
+    flex: 1 0 300px;
+    min-height: 300px;
+    text-decoration: none;
+    background-size: cover;
+    border: 0.2rem solid #13293d;
+    background-color: #13293d;
+    background-image: url("../images/Space.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .project-content {
+    display: flex;
+    color: white;
+    margin: 15px;
+    align-items: flex-end;
+
+    .description {
+      color: #aaa4a4;
+    }
+  }
+
+  .projectone {
+    display: flex;
+    flex: 2 0 700px;
+    background-position: inherit;
+    background-image: url("../images/umbrella-job-black.png");
+  }
+  .projectone:hover {
+    background-image: url("../images/umbrella-job.png");
+  }
+  .project-2 {
+    background-image: url("../images/prestudy-b.png");
+  }
+  .project-2:hover {
+    background-image: url("../images/prestudy.png");
+  }
+  .project-3 {
+    background-image: url("../images/secretsalad-b.png");
+  }
+  .project-3:hover {
+    background-image: url("../images/secretsalad.png");
+  }
+  .project-4 {
+    background-image: url("../images/rabbit-b.png");
+  }
+  .project-4:hover {
+    background-image: url("../images/rabbit.png");
+  }
+  .project-5 {
+    background-image: url("../images/weather-b.png");
+  }
+  .project-5:hover {
+    background-image: url("../images/weather.png");
+  }
+}
+/* My Portfolio section end */
+
+/* Contact me section */
+#contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 80px;
+  width: 100%;
+
+  .contact-text {
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .contact-text h3::after {
+    content: "😀";
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .contact-icons {
+    display: flex;
+    width: 80%;
+    color: white;
+    align-items: center;
+    justify-content: inherit;
+
+    > div {
+      display: flex;
+
+      > a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+  #about-me-container {
+    > section {
+      flex-direction: column;
+    }
+  }
+}
+
+/* This code was directly taken from strava*/
+#strava-button {
+  display: inline-block;
+  background-color: #fc52008f;
+  color: #fff;
+  padding: 5px 10px 5px 30px;
+  font-size: 11px;
+  font-family: Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  border-radius: 3px;
+  background-image: url("https://badges.strava.com/logo-strava-echelon.png");
+}
+
+.strava-icon {
+  height: 13px;
+  width: 51px;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+}

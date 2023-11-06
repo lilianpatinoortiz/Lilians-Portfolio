@@ -13,7 +13,6 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Contact></Contact>
       <Footer></Footer>
     </>
   );

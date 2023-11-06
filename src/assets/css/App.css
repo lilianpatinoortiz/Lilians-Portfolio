@@ -48,3 +48,51 @@ footer {
   text-align: center;
   margin-top: auto;
 }
+
+/* Personalized css for my portfolio */
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 30px 20px 30px 20px;
+  transition: all 0.3s ease;
+  background: transparent;
+  border: 0;
+  margin: 0;
+  vertical-align: baseline;
+  outline: none;
+
+  height: auto;
+  clear: both;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  box-sizing: border-box;
+}
+
+.nav {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.download_cv {
+  background-color: cyan;
+  color: white;
+  border-radius: 50px;
+  padding: 7px 30px 8px;
+  transition: all 0.3s ease;
+  & a {
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+}
