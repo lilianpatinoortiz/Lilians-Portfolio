@@ -1,7 +1,10 @@
 const projectsData = [{}];
 
-const aboutMeData = [{}];
-
+const aboutData = {
+  name: "Lilian Patino Ortiz",
+  position: "Full stack Software Engineer",
+  location: "San Francisco, California",
+};
 const contactData = [{}];
 
-export { projectsData, aboutMeData, contactData };
+export { projectsData, aboutData, contactData };

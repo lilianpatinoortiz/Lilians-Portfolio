@@ -10,7 +10,7 @@ function Header() {
     <>
       <div id="header">
         <div id="name">
-          <h1>Lilian Patino Ortiz</h1>
+          <h1></h1>
         </div>
         <div className="menu">
           <ul className="nav">
@@ -18,8 +18,8 @@ function Header() {
             <NavLink link="#portfolio" name="Portfolio"></NavLink>
             <NavLink link="#contact" name="Contact"></NavLink>
             <NavLink
-              link="img/cv/1.jpg"
-              name="Download Resume"
+              link="pdf/lilian-patino-ortiz-resume.pdf"
+              name="Linkedin"
               download=""
             ></NavLink>
           </ul>
