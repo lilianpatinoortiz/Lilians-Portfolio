@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
     <>
-      <h2>About me,</h2>
+      <h2>Hi, I'm Lilian Patino Ortiz</h2>
       <br />
     </>
   );

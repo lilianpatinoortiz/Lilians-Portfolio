@@ -12,8 +12,8 @@ function Header() {
         <div id="name">
           <h1>Lilian Patino Ortiz</h1>
         </div>
-        <div class="menu">
-          <ul class="nav">
+        <div className="menu">
+          <ul className="nav">
             <NavLink link="#about" name="About Me"></NavLink>
             <NavLink link="#portfolio" name="Portfolio"></NavLink>
             <NavLink link="#contact" name="Contact"></NavLink>

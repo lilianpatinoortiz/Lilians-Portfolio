@@ -1,6 +1,6 @@
-function NavLink({ myclass, link, name }) {
+function NavLink({ link, name }) {
   return (
-    <li class={myclass}>
+    <li>
       <button href={link}>{name}</button>
     </li>
   );
