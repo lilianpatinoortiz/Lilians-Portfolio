@@ -128,3 +128,27 @@ footer {
     padding: 0 20px;
   }
 }
+.container {
+  transition: all 0.3s ease;
+  min-height: 700px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding: 0 40px;
+  clear: both;
+}
+
+.background-image {
+  background-size: cover;
+  background-image: url("../img/Space2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.center-vertically {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

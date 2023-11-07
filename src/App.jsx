@@ -5,7 +5,7 @@ import "./assets/css/App.css";
 import { Header } from "./components/Header.jsx";
 import { AboutMe } from "./components/AboutMe.jsx";
 import { Contact } from "./components/Contact.jsx";
-//import { Project } from "./components/Project.jsx";
+import { Projects } from "./components/Project.jsx";
 import { Footer } from "./components/Footer.jsx";
 
 // Import the data
@@ -16,6 +16,7 @@ function App() {
     <>
       <Header></Header>
       <AboutMe data={aboutData}></AboutMe>
+      <Projects projects={projectsData}></Projects>
       <Footer></Footer>
     </>
   );

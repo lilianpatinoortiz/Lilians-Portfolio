@@ -1,7 +1,9 @@
 function NavLink({ link, name }) {
   return (
     <li>
-      <button href={link}>{name}</button>
+      <button>
+        <a href={link}>{name}</a>
+      </button>
     </li>
   );
 }

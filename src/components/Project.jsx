@@ -1,5 +1,19 @@
 function Project() {
-  return <></>;
+  return (
+    <>
+      <div id="portfolio"></div>
+    </>
+  );
 }
 
-export { Project };
+function Projects() {
+  return (
+    <>
+      <Project></Project>
+      <Project></Project>
+      <Project></Project>
+    </>
+  );
+}
+
+export { Projects };
