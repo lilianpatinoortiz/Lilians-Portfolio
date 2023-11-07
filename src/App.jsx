@@ -9,15 +9,22 @@ import { Projects } from "./components/Project.jsx";
 import { Footer } from "./components/Footer.jsx";
 
 // Import the data so we can send it to the components
-import { projectsData, aboutData, contactData } from "./data/data.jsx";
+import {
+  headerData,
+  projectsData,
+  aboutData,
+  contactData,
+  footerData,
+} from "./data/data.jsx";
 
 function App() {
   return (
     <>
-      <Header></Header>
+      <Header data={headerData}></Header>
       <AboutMe data={aboutData}></AboutMe>
       <Projects data={projectsData}></Projects>
-      <Footer></Footer>
+      <Contact data={contactData}></Contact>
+      <Footer data={footerData}></Footer>
     </>
   );
 }

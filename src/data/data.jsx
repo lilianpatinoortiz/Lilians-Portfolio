@@ -1,3 +1,22 @@
+const headerData = [
+  {
+    name: "About Me",
+    link: "#about",
+  },
+  {
+    name: "Portfolio",
+    link: "#portfolio",
+  },
+  {
+    name: "Contact",
+    link: "#contact",
+  },
+  {
+    name: "About Me",
+    link: "pdf/lilian-patino-ortiz-resume.pdf",
+  },
+];
+
 const aboutData = {
   name: "Lilian Patino Ortiz",
   position: "Full stack Software Engineer",
@@ -27,4 +46,7 @@ const projectsData = [
   },
 ];
 
-export { projectsData, aboutData, contactData };
+const footerData =
+  "All contents of this site unless otherwise noted, are ©2023 Lilian Patino Ortiz";
+
+export { headerData, projectsData, aboutData, contactData, footerData };

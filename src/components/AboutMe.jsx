@@ -1,7 +1,7 @@
+/* In our component: Destructure the data gotten from the PROPs */
 function AboutMe({
   data: { name, position, location, linkedin, resume, more },
 }) {
-  // We destructure the data object to use the attributes
   return (
     <>
       <div id="about">

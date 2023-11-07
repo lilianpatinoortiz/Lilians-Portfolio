@@ -51,6 +51,18 @@ footer {
 
 /* Personalized css for my portfolio */
 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 #header {
   position: fixed;
   top: 0;
@@ -70,6 +82,14 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  animation-duration: 1s;
+  animation-name: fadeInUp;
+}
+
+#about {
+  animation-duration: 1s;
+  animation-name: fadeInUp;
 }
 
 .nav {
@@ -175,6 +195,10 @@ footer {
     background-color: #d8f4ff;
     background-repeat: no-repeat;
     background-position: center;
+
+    visibility: visible;
+    animation-duration: 1s;
+    animation-name: fadeInUp;
   }
 
   .project-content {
