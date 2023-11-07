@@ -29,7 +29,22 @@ const aboutData = {
   },
   more: "Fullstack Software Engineer with 5+ years of experience developing platforms and software applications. With a Master in Business Administration and SAFe® 5 Scrum Master certification, love leading by example and helping removing blockers for my manager and my team colleges as well as learning new tools and challenging myself on quality product delivery while giving the best technology solution to the business. Passionate about learning, planning, organizing, leadership, details and service.",
 };
-const contactData = [{}];
+
+const contactData = {
+  text: "Want to reach out to me? Feel free to contact me!",
+  socialMediaData: [
+    {
+      icon: "",
+      link: "",
+      name: "linkedin",
+    },
+    {
+      icon: "",
+      link: "",
+      name: "github",
+    },
+  ],
+};
 
 const projectsData = [
   {

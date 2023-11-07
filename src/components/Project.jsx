@@ -14,17 +14,12 @@ function Project({ title, description, link }) {
   );
 }
 
-/* In our component: Rename the data to projects, for better understanding */
+/* In our component: Rename the data prop array, for better understanding */
 function Projects({ data: projects }) {
   /* Iterate through each project  and create a list of projects */
   const listsProjects = projects.map((project) => (
     /* Each element in a list has to have a unique key */
-    <Project
-      key={project.link}
-      title={project.title}
-      description={project.description}
-      link={project.link}
-    ></Project>
+    <Project key={project.link} {...project}></Project>
   ));
 
   return (

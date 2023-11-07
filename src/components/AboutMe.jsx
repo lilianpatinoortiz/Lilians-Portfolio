@@ -17,8 +17,12 @@ function AboutMe({
             </h2>
             <br />
             <div className="aboutme-buttons">
-              <button href={linkedin.link}>My linkedin</button>
-              <button href={resume.link}> Get my resume</button>
+              <button target="_clean" href={linkedin.link}>
+                My linkedin
+              </button>
+              <button target="_clean" href={resume.link}>
+                Get my resume
+              </button>
             </div>
             <p className="scrolling"> Keep scrolling &#x2B07;</p>
           </div>
