@@ -8,7 +8,7 @@ import { Contact } from "./components/Contact.jsx";
 import { Projects } from "./components/Project.jsx";
 import { Footer } from "./components/Footer.jsx";
 
-// Import the data
+// Import the data so we can send it to the components
 import { projectsData, aboutData, contactData } from "./data/data.jsx";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
     <>
       <Header></Header>
       <AboutMe data={aboutData}></AboutMe>
-      <Projects projects={projectsData}></Projects>
+      <Projects data={projectsData}></Projects>
       <Footer></Footer>
     </>
   );

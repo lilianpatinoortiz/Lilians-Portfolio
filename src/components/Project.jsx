@@ -1,17 +1,29 @@
-function Project() {
+function Project({ title, description, link }) {
   return (
     <>
-      <div id="portfolio"></div>
+      <a className="project" target="_clean" href={link}>
+        <div className="project-content">
+          <div>
+            <h1>{title}</h1>
+            <p className="description">{description}</p>
+          </div>
+        </div>
+      </a>
     </>
   );
 }
 
-function Projects() {
+function Projects({ data: projects }) {
+  const listsProjects = projects.map((project) => (
+    <Project
+      title={project.title}
+      description={project.description}
+      link={project.link}
+    ></Project>
+  ));
   return (
     <>
-      <Project></Project>
-      <Project></Project>
-      <Project></Project>
+      <div id="portfolio">{listsProjects}</div>
     </>
   );
 }
