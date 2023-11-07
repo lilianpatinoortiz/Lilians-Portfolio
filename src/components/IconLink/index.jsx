@@ -1,5 +1,5 @@
 /* In our component: Destructure the data gotten from the PROPs */
-function IconLink({ icon, link, name }) {
+const IconLink = ({ icon, link, name }) => {
   console.log("******");
   console.log(name);
 
@@ -11,6 +11,6 @@ function IconLink({ icon, link, name }) {
       </a>
     </div>
   );
-}
+};
 
 export { IconLink };

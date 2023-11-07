@@ -1,4 +1,4 @@
-import { IconLink } from "./IconLink";
+import { IconLink } from "../components/IconLink";
 
 /* In our component: Destructure the data gotten from the PROPs */
 function Contact({ data: { text, socialMediaData } }) {

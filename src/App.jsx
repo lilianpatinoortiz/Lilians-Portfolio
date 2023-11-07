@@ -2,11 +2,11 @@
 import "./assets/css/App.css";
 
 // Import components (top-level and leaf components)
-import { Header } from "./components/Header.jsx";
-import { AboutMe } from "./components/AboutMe.jsx";
-import { Contact } from "./components/Contact.jsx";
-import { Projects } from "./components/Project.jsx";
-import { Footer } from "./components/Footer.jsx";
+import { AboutMe } from "./pages/AboutMe.jsx";
+import { Contact } from "./pages/Contact.jsx";
+import { Projects } from "./pages/Project.jsx";
+import { Header } from "./pages/Header.jsx";
+import { Footer } from "./pages/Footer.jsx";
 
 // Import the data so we can send it to the components
 import {
