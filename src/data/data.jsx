@@ -1,7 +1,7 @@
 const headerData = [
   {
     name: "About Me",
-    link: "#about",
+    link: "#skills",
   },
   {
     name: "Portfolio",
@@ -12,7 +12,7 @@ const headerData = [
     link: "#contact",
   },
   {
-    name: "About Me",
+    name: "Resume",
     link: "pdf/lilian-patino-ortiz-resume.pdf",
   },
 ];
@@ -27,23 +27,20 @@ const aboutData = {
   resume: {
     link: "/",
   },
-  more: "Fullstack Software Engineer with 5+ years of experience developing platforms and software applications. With a Master in Business Administration and SAFe® 5 Scrum Master certification, love leading by example and helping removing blockers for my manager and my team colleges as well as learning new tools and challenging myself on quality product delivery while giving the best technology solution to the business. Passionate about learning, planning, organizing, leadership, details and service.",
+  bio: "Fullstack Software Engineer with 5+ years of experience developing platforms and software applications. With a Master in Business Administration and SAFe® 5 Scrum Master certification, love leading by example and helping removing blockers for my manager and my team colleges as well as learning new tools and challenging myself on quality product delivery while giving the best technology solution to the business. Passionate about learning, planning, organizing, leadership, details and service.",
+  about: {
+    intro:
+      "Hi! I'm Lilian and I was born in Mexico, currently living in California.",
+    studies:
+      "I studied Computer Science Engineering, and I enrolled the UC Berkeley coding bootcamp on 2023 to improve my skills.",
+    self: "I'm 30 years old and I'm a self-taught web developer. I love running, learning , selfcare and spending time with my family and friends. Last but not least I have a guilty passion for self-growth books, time travel theories and space!",
+    closure:
+      "Below you will find my major projects of this year. This is still in progress so stay tuned for more applications!",
+  },
 };
 
 const contactData = {
   text: "Want to reach out to me? Feel free to contact me!",
-  socialMediaData: [
-    {
-      icon: "",
-      link: "",
-      name: "linkedin",
-    },
-    {
-      icon: "",
-      link: "",
-      name: "github",
-    },
-  ],
 };
 
 const projectsData = [
@@ -61,7 +58,12 @@ const projectsData = [
   },
 ];
 
-const footerData =
-  "All contents of this site unless otherwise noted, are ©2023 Lilian Patino Ortiz";
-
+const footerData = {
+  text: "All contents of this site unless otherwise noted, are ©2023 Lilian Patino Ortiz | ",
+  socialMediaData: {
+    linkedin: "https://www.linkedin.com/in/lilianpatinoortiz/",
+    github: "https://github.com/lilianpatinoortiz",
+    strava: "https://www.strava.com/athletes/lilian_patino",
+  },
+};
 export { headerData, projectsData, aboutData, contactData, footerData };

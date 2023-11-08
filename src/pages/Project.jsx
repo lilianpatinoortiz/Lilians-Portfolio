@@ -24,8 +24,8 @@ function Projects({ data: projects }) {
 
   return (
     <>
+      <hr></hr> <br />
       <div id="portfolio">{listsProjects}</div>
-      <hr></hr>
       <br />
     </>
   );

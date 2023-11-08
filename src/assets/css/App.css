@@ -150,7 +150,7 @@ footer {
 }
 .container {
   transition: all 0.3s ease;
-  min-height: 700px;
+  min-height: 900px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -203,7 +203,7 @@ footer {
 
   .project-content {
     display: flex;
-    color: white;
+    color: gray;
     margin: 15px;
     align-items: flex-end;
 
@@ -211,4 +211,58 @@ footer {
       color: #aaa4a4;
     }
   }
+}
+
+/* About me section */
+#about-me {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("../img/GGB.jpeg");
+}
+#about-me-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 700px;
+
+  #my-picture {
+    border-radius: 50%;
+    min-height: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 50px;
+
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/Lilian.png");
+    box-shadow: -10px 10px 10px #fff;
+  }
+
+  #my-bio {
+    max-width: 60%;
+    align-items: center;
+    text-align: left;
+    margin: 50px;
+
+    #strava-cta::after {
+      content: "👇";
+      display: inline-block;
+    }
+  }
+}
+
+/* About me section end */
+
+.cursor {
+  cursor: pointer;
+  padding: 5px;
+}
+
+#form {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
