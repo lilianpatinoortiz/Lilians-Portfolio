@@ -40,7 +40,7 @@ const aboutData = {
 };
 
 const contactData = {
-  text: "Want to reach out to me? Feel free to contact me!",
+  text: "Want to reach out? Feel free to contact me!",
 };
 
 const projectsData = [

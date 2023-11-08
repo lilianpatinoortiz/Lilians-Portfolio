@@ -266,3 +266,11 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+#contact {
+  padding-top: 100px;
+}
+
+.mb-3 {
+  text-align: left;
+}

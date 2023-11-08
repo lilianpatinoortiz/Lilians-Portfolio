@@ -1,4 +1,4 @@
-import { Form } from "../components/Form";
+import { ContactForm } from "../components/ContactForm";
 
 /* In our component: Destructure the data gotten from the PROPs */
 function Contact({ data: { text } }) {
@@ -6,9 +6,9 @@ function Contact({ data: { text } }) {
     <>
       <div id="contact">
         <h2>{text}</h2>
-      </div>
-      <div id="form">
-        <Form></Form>
+        <div id="contact-form">
+          <ContactForm></ContactForm>
+        </div>
       </div>
       <br />
     </>
