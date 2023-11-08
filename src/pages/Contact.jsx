@@ -1,17 +1,18 @@
 import { ContactForm } from "../components/ContactForm";
+import { IconList } from "../components/Icons";
 
 /* In our component: Destructure the data gotten from the PROPs */
 function Contact({ data: { text, socialMediaData } }) {
   return (
     <>
       <div id="contact">
+        <IconList size="50" {...socialMediaData}></IconList>
+        <br />
         <h2 className="subtitle">{text}</h2>
+        <br />
         <div id="contact-form">
           <ContactForm></ContactForm>
         </div>
-        <br />
-        <h2 className="subtitle">FIND ME ON</h2>
-        <h3> insert icons here </h3>
       </div>
       <br />
     </>

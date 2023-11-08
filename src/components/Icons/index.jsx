@@ -1,12 +1,13 @@
 /* In our component: Destructure the data gotten from the PROPs */
-const IconList = ({ linkedin, github, strava }) => {
+/* Set default value for size as 20 */
+const IconList = ({ linkedin, github, strava, size = "20" }) => {
   return (
     <>
       <a className="cursor" target="_clean" href={github}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
+          width={size}
+          height={size}
           fill="currentColor"
           className="bi bi-github"
           viewBox="0 0 16 16"
@@ -17,8 +18,8 @@ const IconList = ({ linkedin, github, strava }) => {
       <a className="cursor" target="_clean" href={linkedin}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
+          width={size}
+          height={size}
           fill="currentColor"
           className="bi bi-linkedin"
           viewBox="0 0 16 16"
@@ -29,8 +30,8 @@ const IconList = ({ linkedin, github, strava }) => {
       <a className="cursor" target="_clean" href={strava}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
+          width={size}
+          height={size}
           fill="currentColor"
           className="bi bi-strava"
           viewBox="0 0 16 16"
