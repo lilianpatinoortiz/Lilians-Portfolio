@@ -15,7 +15,7 @@ const ContactForm = () => {
     console.log(conFom);
   };
   return (
-    <div className="container mt-5">
+    <div className="mt-5">
       <form onSubmit={onSubmit}>
         <div className="mb-3">
           <label className="form-label" htmlFor="name">

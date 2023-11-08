@@ -161,7 +161,6 @@ footer {
 
 .background-image {
   background-size: cover;
-  background-image: url("../img/Space2.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -177,6 +176,8 @@ footer {
   padding-left: 10%;
   padding-right: 10%;
 }
+
+/* Portfolio section */
 
 #portfolio {
   display: flex;
@@ -212,6 +213,8 @@ footer {
     }
   }
 }
+
+/* Portfolio section end */
 
 /* About me section */
 #about-me {
@@ -257,6 +260,7 @@ footer {
 
 /* About me section end */
 
+/* Contact section */
 .cursor {
   cursor: pointer;
   padding: 5px;
@@ -273,4 +277,14 @@ footer {
 
 .mb-3 {
   text-align: left;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  line-height: 1.1;
+}
+
+/* Contact section end */
+
+body {
 }

@@ -1,12 +1,16 @@
+import { NavLinkList } from "../components/NavLink";
+
 /* In our component: Destructure the data gotten from the PROPs */
-function Project({ title, description, link }) {
+function Project({ title, description, links }) {
   return (
     <>
-      <a className="project" target="_clean" href={link}>
+      <a className="project">
         <div className="project-content">
           <div>
             <h1>{title}</h1>
             <p className="description">{description}</p>
+            <hr></hr>
+            <NavLinkList data={links}></NavLinkList>
           </div>
         </div>
       </a>
@@ -19,7 +23,7 @@ function Projects({ data: projects }) {
   /* Iterate through each project  and create a list of projects */
   const listsProjects = projects.map((project) => (
     /* Each element in a list has to have a unique key */
-    <Project key={project.link} {...project}></Project>
+    <Project key={project.title} {...project}></Project>
   ));
 
   return (
