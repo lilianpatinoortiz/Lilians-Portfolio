@@ -1,19 +1,19 @@
-import { NavLinkList } from "../components/NavLink";
+import { ButtonLinkList } from "../components/ButtonLinks";
 
 /* In our component: Destructure the data gotten from the PROPs */
 function Project({ title, description, links }) {
   return (
     <>
-      <a className="project">
+      <div className="project">
         <div className="project-content">
           <div>
             <h1>{title}</h1>
             <p className="description">{description}</p>
             <hr></hr>
-            <NavLinkList data={links}></NavLinkList>
+            <ButtonLinkList data={links}></ButtonLinkList>
           </div>
         </div>
-      </a>
+      </div>
     </>
   );
 }

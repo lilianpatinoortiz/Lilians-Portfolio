@@ -1,7 +1,7 @@
 // Import logos
 import reactLogo from "../assets/img/react.svg";
 import { useState } from "react";
-import { NavLinkList } from "../components/NavLink";
+import { ButtonLinkList } from "../components/ButtonLinks";
 
 /* In our component: Rename the data prop array, for better understanding */
 function Header({ data: links }) {
@@ -12,7 +12,7 @@ function Header({ data: links }) {
           <h1></h1>
         </div>
         <div className="menu">
-          <NavLinkList data={links}></NavLinkList>
+          <ButtonLinkList data={links}></ButtonLinkList>
         </div>
       </div>
     </>
