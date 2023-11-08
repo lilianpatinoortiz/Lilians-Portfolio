@@ -16,9 +16,7 @@ const NavLink = ({ link, name }) => {
   return (
     <li key={link}>
       <button>
-        <a href={link} target="_clean">
-          {name}
-        </a>
+        <a href={link}>{name}</a>
       </button>
     </li>
   );
