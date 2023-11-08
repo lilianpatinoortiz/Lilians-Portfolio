@@ -1,6 +1,5 @@
 // Import logos
 import reactLogo from "../assets/img/react.svg";
-import { useState } from "react";
 import { ButtonLinkList } from "../components/ButtonLinks";
 
 /* In our component: Rename the data prop array, for better understanding */

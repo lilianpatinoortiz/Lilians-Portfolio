@@ -3,7 +3,9 @@ const ButtonLinkList = ({ data: links }) => {
   /* Iterate through each link  and create a list of links */
   const listLinks = links.map((link) => (
     /* Each element in a list has to have a unique key */
-    <ButtonLink key={link.link} {...link} />
+    <li key={link.link}>
+      <ButtonLink key={link.link} {...link} />
+    </li>
   ));
 
   /* Each element in a list has to have a unique key */
@@ -14,11 +16,9 @@ const ButtonLinkList = ({ data: links }) => {
 const ButtonLink = ({ link, name }) => {
   /* Each element in a list has to have a unique key */
   return (
-    <li key={link}>
-      <button>
-        <a href={link}>{name}</a>
-      </button>
-    </li>
+    <button>
+      <a href={link}>{name}</a>
+    </button>
   );
 };
 

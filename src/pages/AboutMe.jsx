@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 /* In our component: Destructure the data gotten from the PROPs */
 function AboutMe({
   data: {
@@ -10,6 +12,8 @@ function AboutMe({
     about: { intro, studies, self, closure },
   },
 }) {
+  const [hi5, setHi5] = useState(0);
+
   return (
     <>
       <div id="about">
@@ -58,6 +62,11 @@ function AboutMe({
             <p>{closure}</p>
           </section>
         </div>
+      </div>
+      <div>
+        <button onClick={() => setHi5((hi5) => hi5 + 1)}>
+          Hi five me! 🤚 ( Count is {hi5} )
+        </button>
       </div>
     </>
   );
