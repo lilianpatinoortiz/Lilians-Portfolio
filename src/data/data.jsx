@@ -13,7 +13,7 @@ const headerData = [
   },
   {
     name: "Resume",
-    link: "pdf/lilian-patino-ortiz-resume.pdf",
+    link: "https://drive.google.com/file/d/1moODYbEO_YMU-9RPBbeXmSeddVMh3OOA/view?usp=sharing",
   },
 ];
 
@@ -25,7 +25,7 @@ const aboutData = {
     link: "https://www.linkedin.com/in/lilianpatinoortiz/",
   },
   resume: {
-    link: "/",
+    link: "https://drive.google.com/file/d/1moODYbEO_YMU-9RPBbeXmSeddVMh3OOA/view?usp=sharing",
   },
   bio: "Fullstack Software Engineer with 5+ years of experience developing platforms and software applications. With a Master in Business Administration and SAFe® 5 Scrum Master certification, love leading by example and helping removing blockers for my manager and my team colleges as well as learning new tools and challenging myself on quality product delivery while giving the best technology solution to the business. Passionate about learning, planning, organizing, leadership, details and service.",
   about: {
