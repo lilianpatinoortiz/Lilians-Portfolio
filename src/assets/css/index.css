@@ -12,6 +12,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  .suncontainer {
+    visibility: hidden;
+  }
 }
 
 a {
@@ -44,7 +48,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
-  cursor: pointer;
+  cursor: pointer !important;
   transition: border-color 0.25s;
 }
 button:hover {
@@ -65,5 +69,8 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+  .suncontainer {
+    visibility: visible;
   }
 }
