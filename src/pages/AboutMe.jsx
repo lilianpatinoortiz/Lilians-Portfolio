@@ -20,7 +20,7 @@ function AboutMe({
         <div className="container">
           <div className="center-vertically">
             <h1>
-              Hi, I'm <strong>{name}</strong>
+              Hi, I'm <strong className="highlited">{name}</strong>
             </h1>
             <br />
             <h2>

@@ -29,6 +29,8 @@ function Projects({ data: projects }) {
   return (
     <>
       <hr></hr> <br />
+      <h1 className="subtitleLg"> My major projects</h1>
+      <br />
       <div id="portfolio">{listsProjects}</div>
       <br />
     </>
