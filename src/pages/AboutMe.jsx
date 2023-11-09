@@ -29,10 +29,10 @@ function AboutMe({
             <br />
             <div className="aboutme-buttons">
               <a target="_clean" className="button" href={linkedin.link}>
-                <button>My linkedin</button>
+                <button className="primary">My linkedin</button>
               </a>
               <a target="_clean" className="button" href={resume.link}>
-                <button>Get my resume</button>
+                <button className="primary">Get my resume</button>
               </a>
             </div>
             <p className="scrolling"> Keep scrolling &#x2B07;</p>

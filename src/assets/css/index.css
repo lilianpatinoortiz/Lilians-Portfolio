@@ -51,6 +51,10 @@ button {
   cursor: pointer !important;
   transition: border-color 0.25s;
 }
+
+button.primary {
+  border: 1px solid #747bff;
+}
 button:hover {
   border-color: #646cff;
 }
