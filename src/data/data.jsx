@@ -11,10 +11,6 @@ const headerData = [
     name: "Contact",
     link: "#contact",
   },
-  {
-    name: "Resume",
-    link: "#about",
-  },
 ];
 
 const aboutData = {

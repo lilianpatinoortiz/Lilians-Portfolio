@@ -187,7 +187,7 @@ html {
     1852px 45px #fff, 1860px 1675px #fff, 1168px 1498px #fff, 840px 1531px #fff,
     1600px 376px #fff, 333px 1913px #fff, 1234px 318px #fff, 1790px 704px #fff,
     1815px 839px #fff, 1117px 1209px #fff, 1846px 924px #fff, 344px 813px #fff;
-  animation: animStar 300s linear infinite;
+  animation: animStar 200s linear infinite;
 }
 #stars:after {
   content: " ";
