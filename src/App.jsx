@@ -1,7 +1,6 @@
 // Import CSS
 import "./assets/css/App.css";
 import "./assets/css/stars.css";
-import "./assets/css/sunny.css";
 
 // Import components (top-level and leaf components)
 import { AboutMe } from "./pages/AboutMe.jsx";
@@ -22,18 +21,6 @@ import {
 function App() {
   return (
     <>
-      <div className="suncontainer">
-        <div className="cloud front">
-          <span className="left-front"></span>
-          <span className="right-front"></span>
-        </div>
-        <span className="sun sunshine"></span>
-        <span className="sun"></span>
-        <div className="cloud back">
-          <span className="left-back"></span>
-          <span className="right-back"></span>
-        </div>
-      </div>
       <div className="starscontainer">
         <div id="stars"></div>
         <div id="stars2"></div>

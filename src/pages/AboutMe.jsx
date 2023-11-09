@@ -64,7 +64,7 @@ function AboutMe({
       </div>
       <br />
       <div>
-        <button onClick={() => setHi5((hi5) => hi5 + 1)}>
+        <button id="hi5Button" onClick={() => setHi5((hi5) => hi5 + 1)}>
           Hi five me! 🤚 ( Count is {hi5} )
         </button>
       </div>

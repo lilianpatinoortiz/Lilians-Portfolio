@@ -287,3 +287,12 @@ footer {
 }
 
 /* Contact section end */
+
+#hi5Button {
+  background-color: transparent;
+  color: #7276d0;
+}
+
+button:hover {
+  background-color: #7276d0;
+}
