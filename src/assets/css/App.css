@@ -125,6 +125,8 @@ footer {
   margin: 10px !important;
 }
 
+/* Aboutme section */
+
 .background-image {
   position: absolute;
   top: 0;
@@ -177,6 +179,8 @@ footer {
   padding-right: 10%;
 }
 
+/* Aboutme section end */
+
 /* Portfolio section */
 
 #portfolio {
@@ -184,6 +188,8 @@ footer {
   flex-wrap: wrap;
   min-height: 500px;
   width: 100%;
+  animation-duration: 1s;
+  animation-name: fadeInUp;
 
   .project {
     display: flex;
@@ -193,7 +199,7 @@ footer {
     text-decoration: none;
     background-size: cover;
     border: 0.2rem solid #ffffff;
-    background-color: #d8f4ff;
+    background-color: #b1c8e4;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -204,12 +210,12 @@ footer {
 
   .project-content {
     display: flex;
-    color: gray;
+    color: black;
     margin: 15px;
     align-items: flex-end;
 
     .description {
-      color: #aaa4a4;
+      color: #140e0e;
     }
   }
 }
@@ -249,12 +255,6 @@ footer {
     max-width: 60%;
     align-items: center;
     text-align: left;
-    margin: 50px;
-
-    #strava-cta::after {
-      content: "👇";
-      display: inline-block;
-    }
   }
 }
 

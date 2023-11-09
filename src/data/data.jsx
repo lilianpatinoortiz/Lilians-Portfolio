@@ -13,7 +13,7 @@ const headerData = [
   },
   {
     name: "Resume",
-    link: "https://drive.google.com/file/d/1moODYbEO_YMU-9RPBbeXmSeddVMh3OOA/view?usp=sharing",
+    link: "#about",
   },
 ];
 
@@ -50,7 +50,7 @@ const contactData = {
 
 const projectsData = [
   {
-    title: "UMBRELLA JOB",
+    title: "UMBRELLA JOB ☂️",
     description:
       "Job search platform, to help you keep moving. Search for any type of job in any location you want and get the real time data of the jobs and season weather for the city.",
     links: [
@@ -65,7 +65,7 @@ const projectsData = [
     ],
   },
   {
-    title: "TASK GURU",
+    title: "TASK GURU 🧿",
     description:
       "This project involves a comprehensive Task Management Application that aims to solve the common challenge of organizing and tracking tasks and projects effectively.",
     links: [

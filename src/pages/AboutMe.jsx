@@ -17,7 +17,6 @@ function AboutMe({
   return (
     <>
       <div id="about">
-        <div className="background-image"></div>
         <div className="container">
           <div className="center-vertically">
             <h1>
@@ -63,11 +62,13 @@ function AboutMe({
           </section>
         </div>
       </div>
+      <br />
       <div>
         <button onClick={() => setHi5((hi5) => hi5 + 1)}>
           Hi five me! 🤚 ( Count is {hi5} )
         </button>
       </div>
+      <br />
     </>
   );
 }

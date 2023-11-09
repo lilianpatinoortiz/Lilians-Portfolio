@@ -1,4 +1,5 @@
-import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+//import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../../assets/css/Bootstrap.css"; // filtering the css needed
 import React from "react";
 
 const ContactForm = () => {
@@ -15,7 +16,7 @@ const ContactForm = () => {
     console.log(conFom);
   };
   return (
-    <div className="mt-5">
+    <div className=" mt-5">
       <form onSubmit={onSubmit}>
         <div className="mb-3">
           <label className="form-label" htmlFor="name">
