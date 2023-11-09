@@ -198,7 +198,7 @@ footer {
     min-height: 300px;
     text-decoration: none;
     background-size: cover;
-    border: 0.2rem solid #ffffff;
+    margin: 5px;
     background-color: #b1c8e4;
     background-repeat: no-repeat;
     background-position: center;
