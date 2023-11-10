@@ -13,12 +13,7 @@ import "./assets/css/reset.css";
 import "./assets/css/index.css";
 
 // Import the data so we can send it to the components
-import {
-  projectsData,
-  aboutData,
-  contactData,
-  footerData,
-} from "./data/data.jsx";
+import { projectsData, aboutData, contactData } from "./data/data.jsx";
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
