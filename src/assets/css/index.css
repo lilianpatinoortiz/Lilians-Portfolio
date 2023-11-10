@@ -52,6 +52,9 @@ button {
 button.primary {
   border: 1px solid #747bff;
 }
+button {
+  background-color: #161e29;
+}
 button:hover {
   border-color: #646cff;
 }
