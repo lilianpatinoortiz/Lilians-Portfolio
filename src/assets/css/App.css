@@ -282,3 +282,11 @@ button:hover {
 .highlited {
   color: var(--imp-text-color) !important;
 }
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(205, 205, 208, 0.49); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
