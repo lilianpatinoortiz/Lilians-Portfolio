@@ -29,6 +29,8 @@ body {
   margin: 0;
   place-items: center;
   min-height: 100vh;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5 !important;
 }
 
 h1 {

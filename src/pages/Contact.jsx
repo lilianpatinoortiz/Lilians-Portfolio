@@ -5,6 +5,7 @@ import { IconList } from "../components/Icons";
 function Contact({ data: { text, socialMediaData } }) {
   return (
     <>
+      <hr></hr>
       <div id="contact">
         <IconList size="50" {...socialMediaData}></IconList>
         <br />
@@ -19,4 +20,4 @@ function Contact({ data: { text, socialMediaData } }) {
   );
 }
 
-export { Contact };
+export default Contact;

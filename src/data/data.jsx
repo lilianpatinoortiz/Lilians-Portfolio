@@ -1,20 +1,8 @@
-const headerData = [
-  {
-    name: "About Me",
-    link: "#skills",
-  },
-  {
-    name: "Portfolio",
-    link: "#portfolio",
-  },
-  {
-    name: "Contact",
-    link: "#contact",
-  },
-];
-
 const aboutData = {
-  name: "Lilian Patino Ortiz",
+  name: {
+    firstName: "Lilian",
+    lastName: "Patino Ortiz",
+  },
   position: "Full stack Software Engineer",
   location: "San Francisco, California",
   linkedin: {
@@ -31,7 +19,7 @@ const aboutData = {
       "I studied Computer Science Engineering, and I enrolled the UC Berkeley coding bootcamp on 2023 to improve my skills.",
     self: "I'm 30 years old and I'm a self-taught web developer. I love running, learning , selfcare and spending time with my family and friends. Last but not least I have a guilty passion for self-growth books, time travel theories and space!",
     closure:
-      "Below you will find my major projects of this year. This is still in progress so stay tuned for more applications!",
+      "In the portfolio page you will find my major projects of this year. This is still in progress so stay tuned for more applications!",
   },
 };
 
@@ -85,4 +73,4 @@ const footerData = {
     strava: "https://www.strava.com/athletes/lilian_patino",
   },
 };
-export { headerData, projectsData, aboutData, contactData, footerData };
+export { projectsData, aboutData, contactData, footerData };

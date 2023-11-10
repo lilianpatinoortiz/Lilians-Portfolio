@@ -1,7 +1,10 @@
 /* code taken from: https://codepen.io/sarazond/pen/LYGbwj*/
 html {
-  height: 100%;
-  /*background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);*/
+  /* height: 100%; */
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.starscontainer {
 }
 
 #stars {
@@ -561,7 +564,7 @@ html {
 
 @keyframes animStar {
   from {
-    transform: translateY(0px);
+    transform: translateY(-1000px);
   }
   to {
     transform: translateY(-2000px);

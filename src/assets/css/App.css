@@ -67,31 +67,7 @@ footer {
   }
 }
 
-#header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-  padding: 30px 20px 30px 20px;
-  transition: all 0.3s ease;
-  background: transparent;
-  border: 0;
-  margin: 0;
-  vertical-align: baseline;
-  outline: none;
-
-  height: auto;
-  clear: both;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  animation-duration: 1s;
-  animation-name: fadeInUp;
-}
-
-#about {
+#aboutme {
   animation-duration: 1s;
   animation-name: fadeInUp;
 }
@@ -105,20 +81,6 @@ footer {
 
   & li {
     padding-left: 5px;
-  }
-}
-
-.download_cv {
-  background-color: cyan;
-  color: white;
-  border-radius: 50px;
-  padding: 7px 30px 8px;
-  transition: all 0.3s ease;
-  & a {
-    color: #fff;
-    display: block;
-    font-weight: 600;
-    transition: all 0.3s ease;
   }
 }
 
@@ -152,6 +114,14 @@ footer {
   .container {
     max-width: 1070px;
     padding: 0 20px;
+  }
+}
+@media (max-width: 600px) {
+  .center-vertically {
+    position: inherit !important;
+    top: auto !important;
+    left: auto !important;
+    transform: initial !important;
   }
 }
 .container {
@@ -234,6 +204,8 @@ footer {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: url("../img/GGB.jpeg");
+  animation-duration: 1s;
+  animation-name: fadeInUp;
 }
 #about-me-container {
   display: flex;
@@ -262,6 +234,10 @@ footer {
   }
 }
 
+#aboutme-header {
+  animation-duration: 1s;
+  animation-name: fadeInUp;
+}
 /* About me section end */
 
 /* Contact section */
@@ -278,6 +254,8 @@ footer {
 #contact {
   padding-top: 100px;
   padding-bottom: 100px;
+  animation-duration: 1s;
+  animation-name: fadeInUp;
 }
 
 .mb-3 {

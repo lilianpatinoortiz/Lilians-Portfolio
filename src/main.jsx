@@ -1,13 +1,60 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import App from "./App";
+import NotFound from "./pages/NotFound";
+import Home from "./pages/Home";
+import AboutMe from "./pages/AboutMe";
+import Project from "./pages/Project";
+import Contact from "./pages/Contact";
+
 import "./assets/css/reset.css";
 import "./assets/css/index.css";
 
-// Initializes the DOM, renders the App component and mounts it to the DOM.
+// Import the data so we can send it to the components
+import {
+  projectsData,
+  aboutData,
+  contactData,
+  footerData,
+} from "./data/data.jsx";
+
+// Define the accessible routes, and which components respond to which URL
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <NotFound />,
+    children: [
+      {
+        index: true,
+        element: <Home data={aboutData} />,
+      },
+      {
+        path: "aboutme",
+        element: <AboutMe data={aboutData} />,
+      },
+      {
+        path: "portfolio",
+        element: <Project data={projectsData} />,
+      },
+      {
+        path: "contact",
+        element: <Contact data={contactData} />,
+      },
+    ],
+  },
+]);
+
+// Render the RouterProvider component
 ReactDOM.createRoot(document.getElementById("root")).render(
-  // This is our root component
-  <React.StrictMode>
-    <App /> {/* App is our top-level component */}
-  </React.StrictMode>
+  <>
+    <div className="starscontainer">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </div>
+    <RouterProvider router={router} />
+  </>
 );

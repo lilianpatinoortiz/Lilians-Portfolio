@@ -2119,6 +2119,7 @@ progress {
   -moz-appearance: none;
   appearance: none;
   /*background-color: var(--bs-body-bg);*/
+  background-color: #ffffff30;
   background-clip: padding-box;
   border: var(--bs-border-width) solid var(--bs-border-color);
   border-radius: var(--bs-border-radius);
@@ -3445,9 +3446,9 @@ fieldset:disabled .btn {
   opacity: 0;
 }
 
-.collapse:not(.show) {
+/* .collapse:not(.show) {
   display: none;
-}
+} */
 
 .collapsing {
   height: 0;
