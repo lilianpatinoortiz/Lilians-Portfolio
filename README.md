@@ -106,7 +106,7 @@ The main resources used:
 - Netlify for deploying the application
 - https://react.dev/learn
 - https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained
--
+- https://www.positronx.io/how-to-build-a-simple-contact-form-in-react-js-app/
 
 ## License
 

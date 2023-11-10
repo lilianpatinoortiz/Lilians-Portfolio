@@ -122,6 +122,7 @@ footer {
     top: auto !important;
     left: auto !important;
     transform: initial !important;
+    padding-top: 30px !important;
   }
 }
 .container {
