@@ -92,12 +92,9 @@ If you want to use the deployed application you can find it here: https://lilian
 
 ## Testing
 
-This challenge does not contain specific test files, but below you can find the screenshots with the flow of the challenge functioning correctly.
+This challenge does not contain specific test files, but below you can find the gif with the flow of the challenge functioning correctly.
 
-![space](src/img/1.png)
-![space](src/img/2.png)
-![space](src/img/3.png)
-![space](src/img/4.png)
+![space](src/img/1.gif)
 
 ## Contributing
 
