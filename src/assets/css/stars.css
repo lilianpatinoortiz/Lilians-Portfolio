@@ -4,9 +4,6 @@ html {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
-.starscontainer {
-}
-
 #stars {
   position: absolute;
   left: 0;
@@ -190,7 +187,7 @@ html {
     1852px 45px #fff, 1860px 1675px #fff, 1168px 1498px #fff, 840px 1531px #fff,
     1600px 376px #fff, 333px 1913px #fff, 1234px 318px #fff, 1790px 704px #fff,
     1815px 839px #fff, 1117px 1209px #fff, 1846px 924px #fff, 344px 813px #fff;
-  animation: animStar 200s linear infinite;
+  animation: animStar 100s linear infinite;
 }
 #stars:after {
   content: " ";
@@ -433,7 +430,7 @@ html {
     650px 253px #fff, 76px 259px #fff, 1845px 1331px #fff, 968px 1041px #fff,
     1694px 796px #fff, 717px 1596px #fff, 1925px 194px #fff, 1976px 304px #fff,
     405px 623px #fff, 1240px 162px #fff, 776px 78px #fff;
-  animation: animStar 5000s linear infinite;
+  animation: animStar 500s linear infinite;
 }
 #stars2:after {
   content: " ";
@@ -525,7 +522,7 @@ html {
     210px 544px #fff, 568px 620px #fff, 76px 1221px #fff, 768px 823px #fff,
     851px 356px #fff, 347px 952px #fff, 1140px 1389px #fff, 1307px 1880px #fff,
     414px 316px #fff, 1540px 383px #fff;
-  animation: animStar 200s linear infinite;
+  animation: animStar 100s linear infinite;
 }
 #stars3:after {
   content: " ";

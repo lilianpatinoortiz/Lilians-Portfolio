@@ -17,6 +17,12 @@ function AboutMe({
       </div>
       <br />
       <hr></hr>
+      <br />
+      <div>
+        <button id="hi5Button" onClick={() => setHi5((hi5) => hi5 + 1)}>
+          Hi five me! 🤚 ( Count is {hi5} )
+        </button>
+      </div>
       <div id="aboutme">
         <div id="about-me-container">
           <section id="my-picture"></section>
@@ -31,12 +37,6 @@ function AboutMe({
             <p>{closure}</p>
           </section>
         </div>
-      </div>
-      <br />
-      <div>
-        <button id="hi5Button" onClick={() => setHi5((hi5) => hi5 + 1)}>
-          Hi five me! 🤚 ( Count is {hi5} )
-        </button>
       </div>
       <br />
     </>

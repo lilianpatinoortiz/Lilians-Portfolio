@@ -2,8 +2,6 @@ import { useState } from "react";
 
 /* In our component: Destructure the data gotten from the PROPs */
 function AboutMe({ data: { name, position, location, linkedin, resume } }) {
-  const [hi5, setHi5] = useState(0);
-
   return (
     <>
       <hr></hr>
@@ -29,7 +27,6 @@ function AboutMe({ data: { name, position, location, linkedin, resume } }) {
                 <button className="primary">Get my resume</button>
               </a>
             </div>
-            <p className="scrolling"> Keep scrolling &#x2B07;</p>
           </div>
         </div>
       </div>
