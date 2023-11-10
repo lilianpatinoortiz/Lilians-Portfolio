@@ -36,7 +36,7 @@ const ContactForm = () => {
           </label>
           <textarea className="form-control" id="message" required />
         </div>
-        <button className="" type="submit">
+        <button className="primary" type="submit">
           {formStatus}
         </button>
       </form>

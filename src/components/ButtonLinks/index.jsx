@@ -16,7 +16,7 @@ const ButtonLinkList = ({ data: links }) => {
 const ButtonLink = ({ link, name }) => {
   /* Each element in a list has to have a unique key */
   return (
-    <button>
+    <button className="primary">
       <a href={link}>{name}</a>
     </button>
   );
