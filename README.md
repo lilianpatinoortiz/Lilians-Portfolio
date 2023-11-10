@@ -20,8 +20,7 @@ Being a web developer means being part of a community. We all need a place to sh
 - [License](#license)
 - [Questions](#questions)
 
-
-## Details 
+## Details
 
 USER STORY
 
@@ -58,7 +57,7 @@ THEN I receive a notification if I have entered an invalid email address
 WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
 ## Tools
@@ -72,7 +71,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - Hooks
 - React Router
 - Netlify
-
 
 ## Installation
 
@@ -94,7 +92,7 @@ If you want to use the deployed application you can find it here: https://lilian
 
 This challenge does not contain specific test files, but below you can find the gif with the flow of the challenge functioning correctly.
 
-![space](src/img/1.gif)
+![space](src/assets/img/1.gif)
 
 ## Contributing
 
@@ -108,7 +106,7 @@ The main resources used:
 - Netlify for deploying the application
 - https://react.dev/learn
 - https://retool.com/blog/the-react-lifecycle-methods-and-hooks-explained
-- 
+-
 
 ## License
 
