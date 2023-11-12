@@ -6,7 +6,7 @@ import App from "./App";
 import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
-import Project from "./pages/Project";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 import "./assets/css/reset.css";
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: "portfolio",
-        element: <Project data={projectsData} />,
+        element: <Projects data={projectsData} />,
       },
       {
         path: "contact",

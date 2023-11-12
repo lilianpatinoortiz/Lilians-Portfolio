@@ -7,6 +7,7 @@ function AboutMe({
     about: { intro, studies, self, closure },
   },
 }) {
+  // state to get and set hi5 value
   const [hi5, setHi5] = useState(0);
 
   return (

@@ -1,4 +1,4 @@
-import { IconList } from "../components/Icons";
+import { IconList } from "../Icons";
 /* In our component: Destructure the data gotten from the PROPs */
 function Footer({ data: { text, socialMediaData } }) {
   return (
