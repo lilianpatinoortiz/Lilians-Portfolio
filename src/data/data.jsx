@@ -34,6 +34,21 @@ const contactData = {
 
 const projectsData = [
   {
+    title: "THE WINNERS 🏆",
+    description:
+      "Task Guru 2.0 (React): This project involves a comprehensive Task Management Application that aims to solve the common challenge of organizing and tracking tasks and projects effectively.",
+    links: [
+      {
+        link: "https://shielded-thicket-49496-3fa79d1c89ee.herokuapp.com/",
+        name: "DEMO",
+      },
+      {
+        link: "https://github.com/lilianpatinoortiz/the-winners",
+        name: "GITHUB",
+      },
+    ],
+  },
+  {
     title: "UMBRELLA JOB ☂️",
     description:
       "Job search platform, to help you keep moving. Search for any type of job in any location you want and get the real time data of the jobs and season weather for the city.",
@@ -49,9 +64,9 @@ const projectsData = [
     ],
   },
   {
-    title: "TASK GURU 🧿",
+    title: "TASK GURU🧿",
     description:
-      "This project involves a comprehensive Task Management Application that aims to solve the common challenge of organizing and tracking tasks and projects effectively.",
+      "Task Guru (Handlebars): This project involves a comprehensive Task Management Application that aims to solve the common challenge of organizing and tracking tasks and projects effectively.",
     links: [
       {
         link: "https://still-brushlands-64829-00310e5d25cf.herokuapp.com/homepage",
